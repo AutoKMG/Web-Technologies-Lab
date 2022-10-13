@@ -1,0 +1,24 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema",
+    "title":"Schema for joke",
+    "type":"object",
+    "properties": {
+        "categories":{"$ref": "./categories-schema.json"},
+        "created_at":{"type":"string"},
+        "icon_url":{"const":"https://assets.chucknorris.host/img/avatar/chuck-norris.png"},
+        "id": {"type":"string"},
+        "updated_at":{"type":"string"},
+        "url":{"type":"string","format": "url"},
+        "value":{"type":"string"}
+    },
+    "required":[
+        "categories",
+        "created_at",
+        "icon_url",
+        "id",
+        "updated_at",
+        "url",
+        "value"
+    ],
+    "additionalProperties": false
+}
