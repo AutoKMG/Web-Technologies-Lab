@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cart SYSTEM "grocery.dtd">
+<?xml-stylesheet type="text/css" href="grocery.css"?>
+<cart>
+	<category>Vegetables and Fruits</category>
+	<title>Khaled</title>
+	<date>Monday 20 Oct</date>
+	<items>
+		<item purchased="yes" quantity="3">
+			<title>Apples</title>
+		</item>
+		<item purchased="no" quantity="6">
+			<title>Bananas</title>
+		</item>
+		<item purchased="no" quantity="3">
+			<title>Tomatoes</title>
+		</item>
+		<item purchased="yes" quantity="2">
+			<title>Watermelon</title>
+		</item>
+		<item purchased="no" quantity="4">
+			<title>Peaches</title>
+		</item>
+		<item purchased="yes" quantity="5">
+			<title>Potato</title>
+		</item>
+	</items>
+</cart>

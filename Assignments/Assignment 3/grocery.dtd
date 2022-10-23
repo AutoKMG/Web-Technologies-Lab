@@ -1,0 +1,7 @@
+<!ELEMENT cart (category, title, date, items)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (title)>
+<!ATTLIST item purchased CDATA #REQUIRED quantity CDATA #REQUIRED>

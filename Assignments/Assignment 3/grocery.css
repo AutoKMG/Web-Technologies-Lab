@@ -1,0 +1,58 @@
+cart {
+    display: block;
+    border: thin solid black;
+    padding: 0.5em;
+    margin: 1em auto;
+    width: fit-content;
+    box-shadow: 0.5em 0.5em 0.5em grey;
+    border-radius: 0.5em;
+}
+category, cart > title, date{
+    font-size: x-large;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+category::after{
+    content: " \2013";
+}
+date::before{
+    content: "(";
+}
+date::after{
+    content: ")";
+}
+items{
+    display: table;
+    width: 100%;
+    counter-reset: track-number;
+}
+item{
+    display:table-row;
+}
+item > title {
+    text-transform: uppercase;
+}
+item::after{
+    content: attr(quantity) "x";
+    float: right;
+    padding: 0.5em;
+    text-align: right;
+}
+item >title::before{
+    content: counter(track-number) ".";
+    counter-increment: track-number;
+    display: inline-block;
+    width: 2em;
+    text-align: right;
+    margin-right: 0.5em;
+}
+item:nth-child(odd){
+    background-color: whitesmoke;
+}
+item:hover {
+    background-color: gold;
+    font-weight: bold;
+}
+item[purchased="yes"] {
+    text-decoration: line-through;
+  }
