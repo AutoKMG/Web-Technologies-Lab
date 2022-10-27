@@ -1,0 +1,20 @@
+.sudoku {
+    border-collapse: collapse;
+    border: medium solid black;
+    margin:auto;
+}
+
+td {
+    border: thin solid lightgray;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table  tr:nth-child(3n){
+    border-bottom: medium solid black;
+}
+table td:nth-child(3n+1){
+    border-left: medium solid black;
+}

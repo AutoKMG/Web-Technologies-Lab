@@ -1,0 +1,29 @@
+.note, .warning {
+    position: relative;
+    padding: 1em 1em 1em 1em;
+    margin: 1em 3em 1em 3em;
+}
+.note {
+    background-color: #CCFFCC;
+}
+.warning{
+    background-color: mistyrose;
+}
+
+.note::before,.warning::before{
+    position: absolute;
+    color:white;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+
+.note::before{
+    content: "Note";
+    background-color: green;
+    transform: rotate(-10deg) translate(-3em,-1.75em);
+}
+.warning::before{
+    content:"Warning!";
+    background-color: red;
+    transform: rotate(-10deg) translate(-4em,-1.75em);
+}

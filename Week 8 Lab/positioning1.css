@@ -1,0 +1,33 @@
+:root {
+    height:100vh;
+}
+body {
+    margin: 0;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    height: 20%;
+    
+}
+#b1 {
+    background-color: limegreen;
+    transform: translate(-50%,-150%);
+}
+#b2 {
+    background-color:coral;
+    transform: translate(50%,-50%);
+
+}
+#b3 {
+    background-color: gold;
+    transform: translate(-50%,50%);
+}
+#b4 {
+    background-color: plum;
+    transform: translate(-150%,-50%);
+}
