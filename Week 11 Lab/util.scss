@@ -1,0 +1,13 @@
+@use 'sass:math';
+@use 'sass:list';
+
+@function random($min,$max){
+    @if($max<$min){
+        @error "Max value is smaller than min value";
+    }
+    @return math.random($max - $min + 1) - 1 + $min;
+}
+@function chooseRandomly($list){
+    $length: list.length($list);
+    @return list.nth($list,math.random($length));
+}

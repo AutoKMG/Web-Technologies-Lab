@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+div.cheerful-letters {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 300;
+  font-weight: bold;
+}
+div.cheerful-letters > span {
+  margin: 0.25em;
+  padding: 0.25em;
+  box-shadow: 0 0 0.25em black;
+}
+div.cheerful-letters > span:nth-child(1) {
+  background-color: violet;
+  transform: rotate(12deg);
+}
+div.cheerful-letters > span:nth-child(2) {
+  background-color: orange;
+  transform: rotate(-5deg);
+}
+div.cheerful-letters > span:nth-child(3) {
+  background-color: green;
+  transform: rotate(-3deg);
+}
+div.cheerful-letters > span:nth-child(4) {
+  background-color: indigo;
+  transform: rotate(9deg);
+}
+div.cheerful-letters > span:nth-child(5) {
+  background-color: yellow;
+  transform: rotate(-6deg);
+}
+div.cheerful-letters > span:nth-child(6) {
+  background-color: blue;
+  transform: rotate(-2deg);
+}
+div.cheerful-letters > span:nth-child(7) {
+  background-color: blue;
+  transform: rotate(-5deg);
+}
+div.cheerful-letters > span:nth-child(8) {
+  background-color: red;
+  transform: rotate(-8deg);
+}
+div.cheerful-letters > span:nth-child(9) {
+  background-color: orange;
+  transform: rotate(-1deg);
+}
+div.cheerful-letters > span:nth-child(10) {
+  background-color: yellow;
+  transform: rotate(2deg);
+}
+div.cheerful-letters > span:nth-child(11) {
+  background-color: green;
+  transform: rotate(6deg);
+}
+div.cheerful-letters > span:nth-child(12) {
+  background-color: yellow;
+  transform: rotate(2deg);
+}
+div.cheerful-letters > span:nth-child(13) {
+  background-color: green;
+  transform: rotate(0deg);
+}
+div.cheerful-letters > span:nth-child(14) {
+  background-color: orange;
+  transform: rotate(-8deg);
+}
+div.cheerful-letters > span:nth-child(15) {
+  background-color: orange;
+  transform: rotate(4deg);
+}
+div.cheerful-letters > span:nth-child(16) {
+  background-color: blue;
+  transform: rotate(11deg);
+}
+div.cheerful-letters > span:nth-child(17) {
+  background-color: green;
+  transform: rotate(7deg);
+}/*# sourceMappingURL=cheerful-letters.css.map */
